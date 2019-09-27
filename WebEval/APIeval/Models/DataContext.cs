@@ -9,5 +9,9 @@ namespace APIeval.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<APIeval.Models.Estudiante> Estudiantes { get; set; }
+
+        public System.Data.Entity.DbSet<APIeval.Models.Nota> Notas { get; set; }
     }
 }
