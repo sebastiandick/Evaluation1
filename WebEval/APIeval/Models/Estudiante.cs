@@ -19,7 +19,7 @@ namespace APIeval.Models
         public TypeSex Sex { get; set; }
         [Required]
         public int Date { get; set; }
-        [Required]
-        public virtual ICollection<Nota> Notas { get; set; }
+        
+      
     }
 }
