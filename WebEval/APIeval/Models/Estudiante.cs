@@ -1,9 +1,8 @@
-﻿
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
-namespace WebEval.Models
+namespace APIeval.Models
 {
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
     public enum TypeSex
     {
         Masculino,
@@ -12,7 +11,7 @@ namespace WebEval.Models
     public class Estudiante
     {
         [Key]
-        
+
         public int StudentID { get; set; }
         [Required]
         public string Name { get; set; }

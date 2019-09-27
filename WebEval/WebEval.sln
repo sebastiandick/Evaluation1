@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebEval", "WebEval\WebEval.csproj", "{F1273D1B-E630-4C60-8544-5457CDF2F9E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIeval", "APIeval\APIeval.csproj", "{98A710F5-F7F8-4D4C-97EE-39F7B4740D42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F1273D1B-E630-4C60-8544-5457CDF2F9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1273D1B-E630-4C60-8544-5457CDF2F9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1273D1B-E630-4C60-8544-5457CDF2F9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A710F5-F7F8-4D4C-97EE-39F7B4740D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A710F5-F7F8-4D4C-97EE-39F7B4740D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A710F5-F7F8-4D4C-97EE-39F7B4740D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A710F5-F7F8-4D4C-97EE-39F7B4740D42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
